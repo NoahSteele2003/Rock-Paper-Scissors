@@ -120,7 +120,7 @@ public class RockPaperScissors {
          if (response.equals("no")){
              if(userTotal>comTotal){
                  System.out.println("\nYou won "+(userTotal-comTotal)+" more games than the opponent.");
-                 System.out.println("You are a pro");
+                 System.out.println("You are a pro.");
              }
              else if(userTotal<comTotal){
                  System.out.println("\nThe opponent won "+(comTotal-userTotal)+" more games than you.");
